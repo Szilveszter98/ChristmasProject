@@ -1,72 +1,142 @@
-/*sytles till kontakt oss section*/
-
-#kontakt {
-    background: /*$maincolor; */
-    #FFC10A;
-    padding: 2rem 0 1rem 0;
-    color: #212121;
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
 }
 
+  /*kontactform*/
 
-/* styles till företags logo*/
-
-.logo-kontakt img {
-    width: 140px;
-    background: #212121;
-    clip-path: ellipse(50% 50% at 50% 50%);
-    position: relative;
-    left: -5rem;
-    top: 6rem;
-    transform: rotate(-90deg);
-}
-
-#kontakt h2 {
-    margin-bottom: 1rem;
-}
-
-#kontakt a {
-    color: #212121;
-    text-decoration: none;
-}
-
-#kontakt a:hover {
-    color: white;
-}
-
-.kontaktForm input,
-textarea {
-    width: 100%;
-    margin-top: 1rem;
-    border-radius: 5px;
-    display: inline-block;
-    padding: 4px 10px;
-    border: 1px solid #ccc;
-}
-
-.btn-ring {
-    margin-top: 1rem;
-    background: /*$mainBlack*/
-    #212121;
-    color: /*$maincolor*/
-    #FFC10A;
-    border: none;
-    border-radius: 5px;
-    padding: .5rem 1.5rem;
-}
-
-.btn-ring:hover {
-    background: rgb(54, 53, 53);
-}
+  #bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background-color: black; }
 
 
-/* responsive breakpiont for small screen*/
+    .bigContactText{
+      color: white;
+      font-size: 35px;
+      text-align: center;
+      font-family: 'Kaushan Script', cursive;      
+      text-shadow: 1px 1px black;
+      padding-top: 50px;
 
-@media only screen and (max-width:575px) {
-    .logo-kontakt img {
-        position: relative;
-        top: 0;
-        left: 30%;
-        transform: none;
-        margin-bottom: 1rem;
     }
+    
+    .smallerTxt{
+      width: 700px;
+      text-align: center;
+      margin: auto;
+
+    }
+   
+.contactForm{
+ 
+    height: 425px;
+    width: auto;
+}
+form { max-width:420px; margin:auto; padding-top: 75px; }
+
+.feedback-input {
+  color:black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 8px;
+  line-height: 22px;
+  background-color: rgb(190, 189, 189);
+  border:2px solid #DD007D;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+ 
+}
+
+.feedback-input:focus { border:2px solid #DD007D; }
+
+textarea {
+  height: 100px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#DD007D;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: #00EEFF;
+color: black; }
+
+.contanctIcons{
+  padding-left: 28%;
+  color: white;
+  display: inline-flex;
+  text-align: center;
+
+}
+
+
+#facebookIcon{
+
+color: #DD007D;
+padding: 20px;
+}
+#facebookIcon:hover{
+  color: #00EEFF;
+
+}
+#instagramIcon{
+  color: #DD007D;
+  padding: 20px;
+  
+}
+#instagramIcon:hover{
+  color: #00EEFF;
+
+}
+#twitterIcon{
+  color: #DD007D;
+  padding: 20px;
+}
+#twitterIcon:hover{
+  color: #00EEFF;
+
+}
+#linkedinIcon{
+  color: #DD007D;
+  padding:20px
+  
+  
+}
+#linkedinIcon:hover{
+  color: #00EEFF;
+
+}
+#githubIcon{
+  color: #DD007D;
+  padding:20px
+  
+  
+}
+#githubIcon:hover{
+  color: #00EEFF;
+
 }

@@ -1,0 +1,81 @@
+.bodyStyle{
+   
+    width: 1200px;
+    height: auto;
+    display: list-item;
+    justify-content: center;
+    margin: auto;
+    background-color: #00EEFF;
+    -webkit-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 5px 3px rgba(0,0,0,0.75);
+padding-bottom: 50px;
+}
+.contactsH1{
+    color: white;
+    font-size: 75px ;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;      
+    text-shadow: 3px 1px black;
+    padding: 50px;
+
+
+  }
+
+
+
+#myCarousel{
+ margin: auto;
+  width:1140px;
+  height: 580px;
+  -webkit-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+}
+.latestProj{
+    text-align:left;
+    color: black;
+    padding-top: 100px;
+    padding-left: 50px;
+    text-decoration: underline;
+   
+}
+
+.inner-projcets{
+ display: flex;
+ justify-content: center;
+ background-color: blanchedalmond;
+ width: 900px;
+ height: auto;
+}
+.projects{
+    padding-top: 100px;
+}
+.projectOne{
+    width: 1100px;
+    height: 350px; 
+    margin: auto;
+    background-color: rgb(209, 179, 179);
+    -webkit-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
+    padding-bottom: 50px;
+    border-radius: 15px;
+   
+}
+#projectOnePic{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 250px;
+    height: 175px;
+    
+    
+    
+}
+.projectOneP{
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gelasio', serif;
+    font-size: 28px;
+}
