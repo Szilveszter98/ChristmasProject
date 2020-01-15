@@ -1,47 +1,58 @@
-
-
+*{
+  padding: 0;
+  margin: 0;
+}
  /*About design*/
- .About{
-  background-color: #00EEFF;
+ .About{  
+  background-color: $maincolor;
+}
+#aboutMeContant{
+  display: flex;
+  justify-content: center;
+
 }
  .aboutTxt{
     font-size: 50px;
-    color:white;
-    padding-left: 50px;
+    color:$TextColor;
     text-shadow: 1px 2px rgb(66, 66, 66);
     font-family: 'Lobster', cursive;
+    text-align: center;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    text-shadow: 3px 2px black;
+    text-shadow: 3px 2px $shadowBlack;
+ 
     
  
  }
  
- .aboutMe{
-     display: flex;
-     margin: auto;
-     color: #FFF;
-     width: 800px;
- }
- .pAboutTxt{
-     
  
+ .pAboutTxt{
+     width: 50vw;
+    display: flex;
+    justify-content: center;
      font-family: 'Lobster', cursive;;
      font-size: 35px;
      text-align: justify;
-     color:white;
-     text-shadow: 3px 2px black;
+     color:$TextColor;
+     text-shadow: 3px 2px $shadowBlack;
  
      
  }
+ @media (max-width: 40rem) {
+
+ .pAboutTxt{
+   width: 81vw;
+ }
+}
  
  
  .profilIMG{
+   display: flex;
+   justify-content: center;
      border-radius: 40%;
-     float: left;
      width: 300px;
-     padding-top:100px;
+     margin: auto;
+     padding: 30px;
+     
      
     
  }
@@ -49,7 +60,8 @@
  
  /**/
  .DownBttn{
-  background-color: #00EEFF;
+   
+  background-color: $babyBlue;
  }
  .scrollBttnDown{
      scroll-behavior: smooth;
@@ -63,21 +75,22 @@
      justify-content: center;
  }
  #scrollUpBttn{
-     color: #DD007D;
+   padding-top: 25px;
+     color:$neonPink;
      padding-bottom: 25px ;
  }
  #scrollUpBttn:hover{
-     color: greenyellow;
+     color:$babyBlue;
    
    }
  
  #scrollDownBttn{
  
-     color: #DD007D;
+     color:$neonPink;
      
  }
  #scrollDownBttn:hover{
-     color: greenyellow;
+     color:$babyBlue;
    
    }
  
@@ -139,9 +152,9 @@
    
  .scrollToTop{
   text-align: center;
-  color: white;
+  color: $TextColor;
   margin: 0;
   padding-bottom: 10px;
-  text-shadow: 2px 1px black;
+  text-shadow: 2px 1px $shadowBlack;
   font-size: 22px;
  }

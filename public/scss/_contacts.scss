@@ -1,10 +1,3 @@
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-    margin: 0;
-}
-
   /*kontactform*/
 
   #bgvideo {
@@ -18,24 +11,29 @@
 
 
     .bigContactText{
-      color: white;
+   
+     
+      color: $TextColor;
       font-size: 35px;
       text-align: center;
       font-family: 'Kaushan Script', cursive;      
-      text-shadow: 1px 1px black;
+      text-shadow: 1px 1px $shadowBlack;
       padding-top: 50px;
 
     }
     
     .smallerTxt{
-      width: 700px;
+     
+      width: auto;
       text-align: center;
       margin: auto;
+     
 
     }
    
 .contactForm{
- 
+  display: flex;
+  justify-content: center;
     height: 425px;
     width: auto;
 }
@@ -49,7 +47,7 @@ form { max-width:420px; margin:auto; padding-top: 75px; }
   border-radius: 8px;
   line-height: 22px;
   background-color: rgb(190, 189, 189);
-  border:2px solid #DD007D;
+  border:2px solid $neonPink;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -59,7 +57,7 @@ form { max-width:420px; margin:auto; padding-top: 75px; }
  
 }
 
-.feedback-input:focus { border:2px solid #DD007D; }
+.feedback-input:focus { border:2px solid $neonPink; }
 
 textarea {
   height: 100px;
@@ -70,11 +68,11 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#DD007D;
+  background:$neonPink;
   border-radius:5px;
   border:0;
   cursor:pointer;
-  color:white;
+  color:$TextColor;
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
@@ -82,61 +80,63 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background: #00EEFF;
+[type="submit"]:hover { background: $babyBlue;
 color: black; }
 
-.contanctIcons{
-  padding-left: 28%;
-  color: white;
-  display: inline-flex;
+.contactIcons{
+  
+  justify-content: center;
+  color: $TextColor;
+  display: flex;
   text-align: center;
+  
 
 }
 
 
 #facebookIcon{
 
-color: #DD007D;
+color: $neonPink;
 padding: 20px;
 }
 #facebookIcon:hover{
-  color: #00EEFF;
+  color:$babyBlue;
 
 }
 #instagramIcon{
-  color: #DD007D;
+  color: $neonPink;
   padding: 20px;
   
 }
 #instagramIcon:hover{
-  color: #00EEFF;
+  color: $babyBlue;
 
 }
 #twitterIcon{
-  color: #DD007D;
+  color: $neonPink;
   padding: 20px;
 }
 #twitterIcon:hover{
-  color: #00EEFF;
+  color: $babyBlue;
 
 }
 #linkedinIcon{
-  color: #DD007D;
+  color: $neonPink;
   padding:20px
   
   
 }
 #linkedinIcon:hover{
-  color: #00EEFF;
+  color: $babyBlue;
 
 }
 #githubIcon{
-  color: #DD007D;
+  color: $neonPink;
   padding:20px
   
   
 }
 #githubIcon:hover{
-  color: #00EEFF;
+  color: $babyBlue;
 
 }

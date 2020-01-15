@@ -1,14 +1,12 @@
 
 .mainTxtProj{
     
-    color: white;
+    color:$TextColor;
     font-size: 45px ;
     text-align: center;
     font-family: 'Kaushan Script', cursive;      
-    text-shadow: 3px 1px black;
+    text-shadow: 3px 1px $shadowBlack;
     padding: 30px;
-    margin: auto;
-
 
   }
 
@@ -17,9 +15,19 @@
 #myCarousel{
  margin: auto;
   width:855px;
-  height: 480px;
+  height: auto;
+  max-height: 480px;
   -webkit-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
   box-shadow: 0px 6px 16px 10px rgba(0,0,0,0.75);
 }
+
+@media (max-width: 40rem) {
+
+  #myCarousel{
+    width: 325px;
+    height: auto;
+
+  }
+ }
 
